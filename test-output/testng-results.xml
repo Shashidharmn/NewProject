@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13122" started-at="2018-10-30T03:28:56Z" finished-at="2018-10-30T03:29:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13122" started-at="2018-10-30T03:28:56Z" finished-at="2018-10-30T03:29:09Z">
+      <class name="com.shashi.test.TestRunner">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.shashi.test.TestRunner@e45f292]" name="beforeTest" is-config="true" duration-ms="9162" started-at="2018-10-30T08:58:56Z" finished-at="2018-10-30T08:59:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="browser([Ljava.lang.Object;)[pri:0, instance:com.shashi.test.TestRunner@e45f292]" name="browser" duration-ms="402" started-at="2018-10-30T08:59:06Z" data-provider="data" finished-at="2018-10-30T08:59:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@ec2bf82]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.shashi.test.TestRunner@e45f292]" name="afterTest" is-config="true" duration-ms="2753" started-at="2018-10-30T08:59:07Z" finished-at="2018-10-30T08:59:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.shashi.test.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
